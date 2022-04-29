@@ -1,6 +1,8 @@
 # Final Project - Movie Data
 
-## Introduction
+An introductory paragraph explaining your project and your data. 
+A clear purpose for your project
+## Introduction 
 This project focuses on the movies' popularity, their vote average, and the number of the votes. I examine how popularity of movies correlates with vote 
 average, and how this differs over time by using the movies dataset. This will expose the tendencies of popularity and vote of over 40,000 movies released over 140 years. 
 
@@ -43,7 +45,7 @@ The key charts demonstrating the results are shown below.
 
 
 
-## Discussion/Inference of the Visualization:
+## Discussion/Inference of the Visualization: (A description of what the visualization shows and how that relates to the original purpose of your project. What conclusions can you draw from this?)
 The hexbin plot bins the individual points by where they fall on the plot, and will show areas of high density and will better resolve the data.
 
 The stripchart - you could separate the movies into two categories - more popular (maybe > 8) and less popular (or three categories) and then plot the vote count for those. That will also capture vote count better since it is spans a full range of values and not just those shown by the specific colors used in the plot you have now.
@@ -58,13 +60,7 @@ on very similar place on the charts, the vote average of 6 to 8 and the populari
 
 
 ## References
-Brownlee, J. (August 17, 2016). A Gentle Introduction to XGBoost for Applied Machine Learning. [_Machine Learning Mastery_](https://machinelearningmastery.com/gentle-introduction-xgboost-applied-machine-learning/). (https://machinelearningmastery.com/gentle-introduction-xgboost-applied-machine-learning/)
-
-Chugh, A. (Dec 8, 2020). MAE, MSE, RMSE, Coefficient of Determination, Adjusted R Squared — Which Metric is Better? [_Medium_](https://medium.com/analytics-vidhya/mae-mse-rmse-coefficient-of-determination-adjusted-r-squared-which-metric-is-better-cd0326a5697e). (https://medium.com/analytics-vidhya/mae-mse-rmse-coefficient-of-determination-adjusted-r-squared-which-metric-is-better-cd0326a5697e)
-
-Li, C. A Gentle Introduction to Gradient Boosting. [gradient_boosting.pdf](https://github.com/r-fukutoku/Project3/files/8154698/gradient_boosting.pdf)
-
-Vega, R. D. V. and Rai, A. G. Multivariate Regression. [ Brilliant.org ](https://brilliant.org/wiki/multivariate-regression/). (https://brilliant.org/wiki/multivariate-regression/)
+Banik, R. (2017). The Movies Dataset, Version 7. Retrieved February 15, 2022 from [ https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset ](https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset).
 
 
 
