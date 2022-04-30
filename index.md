@@ -22,7 +22,7 @@ Then, the visualizations were created to analyze three correlations between popu
 The types of visualizations:
 - A hexbin plot of popularity in log10 vs vote_average - the hexbin plot bins the individual movie points by where they fall on the plot, and shows areas of high density and resolves the data.
 - A strip plot of vote count vs vote average: all movies were separated into three categories based on their vote average - low: 0≤x<4, middle: 4≤x<8, high: 8≤x≤10. Each movie is a plot point. 
-- A strip plot of vote count vs popularity - all movies were separated into three categories based on their popularity - low: 0≤x<30, middle: 30≤x<100, high: 100≤x≤550. Each movie is a plot point.
+- A strip plot of vote count vs popularity - all movies were separated into three categories based on their popularity - low: 0≤x<10, middle: 10≤x<15, high: 15≤x for 2001-2020, and low: 0≤x<30, middle: 30≤x<100, high: 100≤x for 2001-2020; the separations were adjusted for the better visualizations for the comparison purpose. Each movie is a plot point.
 
 
 ## Results
@@ -43,8 +43,9 @@ The key charts demonstrating the results are shown below.
 
 **Strip Plots of Vote Count vs Popularity in Different Timeframe:**
 
-![final_strip_pop_1941-1960](https://user-images.githubusercontent.com/98488324/166092245-652666ee-fb97-4a3f-bc98-487b2fc337bf.png)
-![final_strip_pop_2001-2020](https://user-images.githubusercontent.com/98488324/166092247-921e9fde-a0fe-48fb-81cb-3ac380446d59.png)
+![final_strip_pop_1941-1960](https://user-images.githubusercontent.com/98488324/166092761-c0ad5dc6-91e4-4787-b58b-7540ceaf799e.png)
+![final_strip_pop_2001-2020](https://user-images.githubusercontent.com/98488324/166092766-f152e44f-6347-49d7-86a5-2c9cc3e929dc.png)
+
 
 
 ## Findings from the Visualizations
