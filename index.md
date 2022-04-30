@@ -20,9 +20,9 @@ All movies with zero vote counts were removed from the subset data, and all movi
 Then, the visualizations were created to analyze three correlations between popularity and vote average, vote count and vote average, and vote count and popularity. The popularity values were calculated in logarithm of 10 for the better visualizations since the values vary over a wide range, from 0.000001 to 547.488298. 
 
 The types of visualizations:
-- A hexbin plot of popularity in log10 vs vote_average - the hexbin plot bins the individual points by where they fall on the plot, and will show areas of high density and will better resolve the data.
-- A strip plot of vote count vs vote average: all movies were separated into three categories based on their vote average - low: 0≤x<4, middle: 4≤x<8, high: 8≤x≤10.
-- A strip plot of vote count vs popularity - all movies were separated into three categories based on their popularity - low: 0≤x<30, middle: 30≤x<100, high: 100≤x≤550.
+- A hexbin plot of popularity in log10 vs vote_average - the hexbin plot bins the individual movie points by where they fall on the plot, and shows areas of high density and resolves the data.
+- A strip plot of vote count vs vote average: all movies were separated into three categories based on their vote average - low: 0≤x<4, middle: 4≤x<8, high: 8≤x≤10. Each movie is a plot point. 
+- A strip plot of vote count vs popularity - all movies were separated into three categories based on their popularity - low: 0≤x<30, middle: 30≤x<100, high: 100≤x≤550. Each movie is a plot point.
 
 
 ## Results
@@ -48,14 +48,9 @@ The key charts demonstrating the results are shown below.
 
 
 ## Findings from the Visualizations
-The hexbin plot allowed us 
+The hexbin plot allowed us to have an effective visualization for the analysis of the corlleration between popularity and vote average. I created the same structured plots for seven two-decade span subset data to analyze the trends of population and vote average over time. Surprisingly, I found that there are two trends that appear in all charts with the movies over 140 years. The first one is that the plot points focus on the vote average of 5 to 8 and the popularityof 0 in log10. The second trend is that the plots showed in different colors than purple are focus on very similar place on the charts, the vote average of 6 to 8 and the popularity of 1 in log10. This is interpreted as a tendency that the popular movies tend to have relatively high votes with many vote counts. I picked two plots of 1941-1960 and 2001-2020 as they indicate the trends well and clearly. 
 
 The stripchart captures vote count efficiently since it spans a full range of values.
-
-
-The scatter plots allowed us to have the most effective visualization for this analysis, with the vote average on x-axis, popularity in log10 in y-axis, and each movie is a plot point with the different colors that differentiate vote counts. I created the same structured scatter plots for seven two-decade span subset data to analyze the trends of population and vote average over time. 
-Surprisingly, I found that there are two trends that appear in all charts with the movies over 140 years. The first one is that the plot points focus on the vote average of 5 to 8 and the popularityof 0 in log10. The second trend is that the plots showed in different colors than purple are focus 
-on very similar place on the charts, the vote average of 6 to 8 and the popularity of 1 in log10. This is interpreted as a tendency that the popular movies tend to have relatively high votes with many vote counts. I picked two plots of 1941-1960 and 2001-2020 as they indicate the trends well and clearly. 
 
 
 ## Conclusion
