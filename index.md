@@ -6,7 +6,7 @@ The movies dataset from Keggle containing 45,000 movies information was used as 
 
 ## Description of Data:
 The original dataset, the movies dataset, from Keggle contains information on 45,000 movies featured in the Full MovieLens dataset. Features include title, budget, revenue, genres, release dates, original languages, overview, production countries, and companies. 
-The dataset was re-formatted for the part of original data used complicated JSON-like formats, and missing observations were largely removed. To analyze the tendencies of popularity, vote average, and vote counts by years, the columns "popularity", "release_date", "vote_average", and "vote_count" were taken for the subset data. 
+The dataset was re-formatted for the part of original data used complicated JSON-like formats, and missing observations were largely removed. To analyze the tendencies of popularity, vote average, and vote counts by years, four columns indicated below were taken for the subset data. 
 
 The columns being examined:
 - popularity: each movie's popularity
@@ -19,6 +19,7 @@ The columns being examined:
 All movies with zero vote counts were removed from the subset data, and all movie data of the dataframe was separated into seven subsets of 20-year span by extracting first four digits from the release_date column. 
 Then, the visualizations were created to analyze three correlations between popularity and vote average, vote count and vote average, and vote count and popularity. The popularity values were calculated in logarithm of 10 for the better visualizations since the values vary over a wide range, from 0.000001 to 547.488298. 
 
+The kinds of visualizations:
 - A hexbin plot just of log(popularity) vs vote_average, The hexbin plot bins the individual points by where they fall on the plot, and will show areas of high density and will better resolve the data.
 
 - A stripchart - separate the movies into two categories - more popular (maybe > 8) and less popular (or three categories) and then plot the vote count for those. That will also capture vote count better since it is spans a full range of values and not just those shown by the specific colors used in the plot you have now.
