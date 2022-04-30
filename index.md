@@ -19,11 +19,10 @@ The columns being examined:
 All movies with zero vote counts were removed from the subset data, and all movie data of the dataframe was separated into seven subsets of 20-year span by extracting first four digits from the release_date column. 
 Then, the visualizations were created to analyze three correlations between popularity and vote average, vote count and vote average, and vote count and popularity. The popularity values were calculated in logarithm of 10 for the better visualizations since the values vary over a wide range, from 0.000001 to 547.488298. 
 
-The kinds of visualizations:
-- A hexbin plot just of log(popularity) vs vote_average, The hexbin plot bins the individual points by where they fall on the plot, and will show areas of high density and will better resolve the data.
-
-- A stripchart - separate the movies into two categories - more popular (maybe > 8) and less popular (or three categories) and then plot the vote count for those. That will also capture vote count better since it is spans a full range of values and not just those shown by the specific colors used in the plot you have now.
-
+The types of visualizations:
+- A hexbin plot of popularity in log10 vs vote_average - the hexbin plot bins the individual points by where they fall on the plot, and will show areas of high density and will better resolve the data.
+- A strip plot of vote count vs vote average: all movies were separated into three categories based on their vote average - low: 0≤x<4, middle: '4≤x<8', high: 8≤x≤10.
+- A strip plot of vote count vs popularity - all movies were separated into three categories based on their popularity - low: 0≤x<30, middle: '30≤x<100', high: 100≤x≤550.
 
 
 ## Results:
@@ -48,8 +47,8 @@ The key charts demonstrating the results are shown below.
 
 
 
-## Discussion/Inference of the Visualization: (A description of what the visualization shows and how that relates to the original purpose of your project. What conclusions can you draw from this?)
-The hexbin plot bins the individual points by where they fall on the plot, and will show areas of high density and will better resolve the data.
+## Findings from the Visualizations: 
+The hexbin plot allowed us 
 
 The stripchart - you could separate the movies into two categories - more popular (maybe > 8) and less popular (or three categories) and then plot the vote count for those. That will also capture vote count better since it is spans a full range of values and not just those shown by the specific colors used in the plot you have now.
 
@@ -59,12 +58,12 @@ The scatter plots allowed us to have the most effective visualization for this a
 Surprisingly, I found that there are two trends that appear in all charts with the movies over 140 years. The first one is that the plot points focus on the vote average of 5 to 8 and the popularityof 0 in log10. The second trend is that the plots showed in different colors than purple are focus 
 on very similar place on the charts, the vote average of 6 to 8 and the popularity of 1 in log10. This is interpreted as a tendency that the popular movies tend to have relatively high votes with many vote counts. I picked two plots of 1941-1960 and 2001-2020 as they indicate the trends well and clearly. 
 
+## Conclusion:
 
 
 
 ## References
 Banik, R. (2017). The Movies Dataset, Version 7. Retrieved February 15, 2022 from [ https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset ](https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset).
-
 
 
 ##### Jekyll Themes
