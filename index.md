@@ -37,14 +37,13 @@ The key charts demonstrating the results are shown below.
 
 **Strip Plots of Vote Count vs Vote Average in Different Timeframe:**
 
-![final_strip_1941-1960](https://user-images.githubusercontent.com/98488324/165883458-22ecf989-5d68-4e6b-bad3-0f97602995f0.png)
-![final_strip_2001-2020](https://user-images.githubusercontent.com/98488324/165883270-004867b3-ecff-446a-b8d2-753f38bb9ff2.png)
+![final_strip_1941-1960](https://user-images.githubusercontent.com/98488324/166092235-6a5ed83e-f0d9-425c-8c09-1c5c542a326c.png)
+![final_strip_2001-2020](https://user-images.githubusercontent.com/98488324/166092239-3b527810-902b-485d-a836-50de89598a97.png)
 
 **Strip Plots of Vote Count vs Popularity in Different Timeframe:**
 
-![final_strip_pop_1941-1960](https://user-images.githubusercontent.com/98488324/166092110-377c0fbb-ed6a-4f31-ae1a-9f968c2facc0.png)
-![final_strip_pop_2001-2020](https://user-images.githubusercontent.com/98488324/165883306-c8218dfb-f3f3-41a5-9304-ccf080ba69d0.png)
-
+![final_strip_pop_1941-1960](https://user-images.githubusercontent.com/98488324/166092245-652666ee-fb97-4a3f-bc98-487b2fc337bf.png)
+![final_strip_pop_2001-2020](https://user-images.githubusercontent.com/98488324/166092247-921e9fde-a0fe-48fb-81cb-3ac380446d59.png)
 
 
 ## Findings from the Visualizations
