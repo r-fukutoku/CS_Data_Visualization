@@ -1,16 +1,18 @@
 # Final Project - Movie Data
 
-An introductory paragraph explaining your project and your data. 
-A clear purpose for your project
 ## Introduction 
-This project focuses on the movies' popularity, their vote average, and the number of the votes. I examine how popularity of movies correlates with vote 
-average, and how this differs over time by using the movies dataset. This will expose the tendencies of popularity and vote of over 40,000 movies released over 140 years. 
-
+The movies dataset from Keggle containing 45,000 movies information was used as an original dataset. This project focuses on the movies' popularity, their vote average, and the number of the votes and seeks to identify how popularity of movies correlates with vote average, and how this differs over time by using the movies dataset. The analysis will expose the tendencies of popularity and vote of over 40,000 movies released over 140 years. 
 
 
 ## Description of Data:
-To analyze this relationship, the popularity, release_date, vote_average, and vote_count columns were taken for the subset data. 
+The original dataset, the movies dataset, from Keggle contains information on 45,000 movies featured in the Full MovieLens dataset. Features include posters, backdrops, budget, revenue, release dates, languages, production countries and companies. 
+The dataset was re-formatted for the part of original data used complicated JSON-like formats, and missing observations were largely removed. To analyze the tendencies of popularity, vote average, and vote counts by years, the columns "popularity", "release_date", "vote_average", and "vote_count" were taken for the subset data. 
 
+The columns being examined:
+- popularity:
+- "release_date":
+- "vote_average:
+- vote_count: 
 
 
 ## Analysis Methodologies:
