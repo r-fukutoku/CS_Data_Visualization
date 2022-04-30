@@ -55,7 +55,7 @@ The stripchart captures vote count efficiently since it spans a full range of va
 
 
 ## Conclusion
-
+From this analysis, I conclude that the population and vote average have very similar trends over 140 years. 
 
 
 ## References
