@@ -28,19 +28,19 @@ The types of visualizations:
 ## Results:
 The key charts demonstrating the results are shown below.
 
-**Hexbin Plots for log10 of Popularity vs Vote Average in Different Timeframe:**
+**Hexbin Plots of Popularity in log10 vs Vote Average in Different Timeframe:**
 
 ![final_hexbin_1941-1960](https://user-images.githubusercontent.com/98488324/165655712-c06e7db2-5a98-4960-a04a-30f506d780a5.png)
 
 ![final_hexbin_2001-2020](https://user-images.githubusercontent.com/98488324/165655720-d5a716b3-3d0a-4083-8f52-4f00ada2201b.png)
 
 
-**Strip Plots for Vote Count vs Vote Average in Different Timeframe:**
+**Strip Plots of Vote Count vs Vote Average in Different Timeframe:**
 
 ![final_strip_1941-1960](https://user-images.githubusercontent.com/98488324/165883458-22ecf989-5d68-4e6b-bad3-0f97602995f0.png)
 ![final_strip_2001-2020](https://user-images.githubusercontent.com/98488324/165883270-004867b3-ecff-446a-b8d2-753f38bb9ff2.png)
 
-**Strip Plots for Vote Count vs Popularity in Different Timeframe:**
+**Strip Plots of Vote Count vs Popularity in Different Timeframe:**
 
 ![final_strip_pop_1941-1960](https://user-images.githubusercontent.com/98488324/165883324-630ad352-05f6-4fa9-822b-215cd43fec57.png)
 ![final_strip_pop_2001-2020](https://user-images.githubusercontent.com/98488324/165883306-c8218dfb-f3f3-41a5-9304-ccf080ba69d0.png)
@@ -50,13 +50,13 @@ The key charts demonstrating the results are shown below.
 ## Findings from the Visualizations: 
 The hexbin plot allowed us 
 
-The stripchart - you could separate the movies into two categories - more popular (maybe > 8) and less popular (or three categories) and then plot the vote count for those. That will also capture vote count better since it is spans a full range of values and not just those shown by the specific colors used in the plot you have now.
-
+The stripchart captures vote count efficiently since it spans a full range of values.
 
 
 The scatter plots allowed us to have the most effective visualization for this analysis, with the vote average on x-axis, popularity in log10 in y-axis, and each movie is a plot point with the different colors that differentiate vote counts. I created the same structured scatter plots for seven two-decade span subset data to analyze the trends of population and vote average over time. 
 Surprisingly, I found that there are two trends that appear in all charts with the movies over 140 years. The first one is that the plot points focus on the vote average of 5 to 8 and the popularityof 0 in log10. The second trend is that the plots showed in different colors than purple are focus 
 on very similar place on the charts, the vote average of 6 to 8 and the popularity of 1 in log10. This is interpreted as a tendency that the popular movies tend to have relatively high votes with many vote counts. I picked two plots of 1941-1960 and 2001-2020 as they indicate the trends well and clearly. 
+
 
 ## Conclusion:
 
