@@ -1,6 +1,6 @@
 # Final Project - Movie Data
 
-## Introduction 
+### Introduction 
 The movies dataset from Keggle containing 45,000 movies information was used as an original dataset. This project focuses on the movies' popularity, their vote average, and the number of the votes and seeks to identify how popularity of movies correlates with vote average, and how this differs over time by using the movies dataset. The analysis will expose the tendencies of popularity and vote of over 40,000 movies (after removing all movies with missing observations) released over 140 years. 
 
 
