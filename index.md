@@ -10,7 +10,7 @@ The dataset was re-formatted for the part of original data used complicated JSON
 
 The columns being examined:
 - popularity: each movie's popularity
-- release_date: the date each movie was released in YYYY-MM-DD format
+- release_date: the date each movie was released in "YYYY-MM-DD" format
 - vote_average: each movie's vote average in a scale of 0 to 10 in steps of 0.1
 - vote_count: the number of vote each movie obtained 
 
@@ -21,8 +21,8 @@ Then, the visualizations were created to analyze three correlations between popu
 
 The types of visualizations:
 - A hexbin plot of popularity in log10 vs vote_average - the hexbin plot bins the individual points by where they fall on the plot, and will show areas of high density and will better resolve the data.
-- A strip plot of vote count vs vote average: all movies were separated into three categories based on their vote average - low: 0≤x<4, middle: '4≤x<8', high: 8≤x≤10.
-- A strip plot of vote count vs popularity - all movies were separated into three categories based on their popularity - low: 0≤x<30, middle: '30≤x<100', high: 100≤x≤550.
+- A strip plot of vote count vs vote average: all movies were separated into three categories based on their vote average - low: 0≤x<4, middle: 4≤x<8, high: 8≤x≤10.
+- A strip plot of vote count vs popularity - all movies were separated into three categories based on their popularity - low: 0≤x<30, middle: 30≤x<100, high: 100≤x≤550.
 
 
 ## Results:
