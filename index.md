@@ -9,14 +9,14 @@ The original dataset, the movies dataset, from Keggle contains information on 45
 The dataset was re-formatted for the part of original data used complicated JSON-like formats, and missing observations were largely removed. To analyze the tendencies of popularity, vote average, and vote counts by years, the columns "popularity", "release_date", "vote_average", and "vote_count" were taken for the subset data. 
 
 The columns being examined:
-- popularity:
-- "release_date":
-- "vote_average:
-- vote_count: 
+- popularity: each movie's popularity
+- release_date: the date each movie was released in YYYY-MM-DD format
+- vote_average: each movie's vote average in a scale of 0 to 10 in steps of 0.1
+- vote_count: the number of vote each movie obtained 
 
 
 ## Analysis Methodologies:
-I removed all movie data with zero vote, extracted first four digits indicating year from the release_date column, and separated all movie data into seven subsets of 20-year span. 
+All movies with zero vote counts were removed from the subset data, and all movie data of the dataframe was separated into seven subsets of 20-year span by extracting first four digits from the release_date column. 
 Then, I created visualizations of popularity and vote average correlation with the color differentiations based on the vote counts. The popularity values were calculated in log10 for the better visualizations since the values vary over a wide range, from 0.000001 to 547.488298. 
 
 - A hexbin plot just of log(popularity) vs vote_average, The hexbin plot bins the individual points by where they fall on the plot, and will show areas of high density and will better resolve the data.
