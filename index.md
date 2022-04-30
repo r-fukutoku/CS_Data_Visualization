@@ -37,8 +37,9 @@ The key charts demonstrating the results are shown below.
 
 **Strip Plots of Vote Count vs Vote Average in Different Timeframe:**
 
-![final_strip_1941-1960](https://user-images.githubusercontent.com/98488324/166092235-6a5ed83e-f0d9-425c-8c09-1c5c542a326c.png)
-![final_strip_2001-2020](https://user-images.githubusercontent.com/98488324/166092239-3b527810-902b-485d-a836-50de89598a97.png)
+![final_strip_1941-1960](https://user-images.githubusercontent.com/98488324/166092280-ae68a7ac-f3a7-4a06-a8c1-12e028dc3707.png)
+![final_strip_2001-2020](https://user-images.githubusercontent.com/98488324/166092283-3858a759-4a16-4b72-a71e-da68f0d83ac4.png)
+
 
 **Strip Plots of Vote Count vs Popularity in Different Timeframe:**
 
