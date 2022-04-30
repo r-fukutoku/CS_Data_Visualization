@@ -4,7 +4,7 @@
 The movies dataset from Keggle containing 45,000 movies information was used as an original dataset. This project focuses on the movies' popularity, their vote average, and the number of the votes and seeks to identify how popularity of movies correlates with vote average, and how this differs over time by using the movies dataset. The analysis will expose the tendencies of popularity and vote of over 40,000 movies (after removing all movies with missing observations) released over 140 years. 
 
 
-## Description of Data:
+## Description of Data
 The original dataset, the movies dataset, from Keggle contains information on 45,000 movies featured in the Full MovieLens dataset. Features include title, budget, revenue, genres, release dates, original languages, overview, production countries, and companies. 
 The dataset was re-formatted for the part of original data used complicated JSON-like formats, and missing observations were largely removed. To analyze the tendencies of popularity, vote average, and vote counts by years, four columns indicated below were taken for the subset data. 
 
@@ -15,7 +15,7 @@ The columns being examined:
 - vote_count: the number of vote each movie obtained 
 
 
-## Analysis Methodologies:
+## Analysis Methodologies
 All movies with zero vote counts were removed from the subset data, and all movie data of the dataframe was separated into seven subsets of 20-year span by extracting first four digits from the release_date column. 
 Then, the visualizations were created to analyze three correlations between popularity and vote average, vote count and vote average, and vote count and popularity. The popularity values were calculated in logarithm of 10 for the better visualizations since the values vary over a wide range, from 0.000001 to 547.488298. 
 
@@ -25,7 +25,7 @@ The types of visualizations:
 - A strip plot of vote count vs popularity - all movies were separated into three categories based on their popularity - low: 0≤x<30, middle: 30≤x<100, high: 100≤x≤550.
 
 
-## Results:
+## Results
 The key charts demonstrating the results are shown below.
 
 **Hexbin Plots of Popularity in log10 vs Vote Average in Different Timeframe:**
@@ -47,7 +47,7 @@ The key charts demonstrating the results are shown below.
 
 
 
-## Findings from the Visualizations: 
+## Findings from the Visualizations
 The hexbin plot allowed us 
 
 The stripchart captures vote count efficiently since it spans a full range of values.
@@ -58,7 +58,7 @@ Surprisingly, I found that there are two trends that appear in all charts with t
 on very similar place on the charts, the vote average of 6 to 8 and the popularity of 1 in log10. This is interpreted as a tendency that the popular movies tend to have relatively high votes with many vote counts. I picked two plots of 1941-1960 and 2001-2020 as they indicate the trends well and clearly. 
 
 
-## Conclusion:
+## Conclusion
 
 
 
