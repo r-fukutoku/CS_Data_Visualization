@@ -5,7 +5,7 @@ The movies dataset from Keggle containing 45,000 movies information was used as 
 
 
 ## Description of Data:
-The original dataset, the movies dataset, from Keggle contains information on 45,000 movies featured in the Full MovieLens dataset. Features include posters, backdrops, budget, revenue, release dates, languages, production countries and companies. 
+The original dataset, the movies dataset, from Keggle contains information on 45,000 movies featured in the Full MovieLens dataset. Features include title, budget, revenue, genres, release dates, original languages, overview, production countries, and companies. 
 The dataset was re-formatted for the part of original data used complicated JSON-like formats, and missing observations were largely removed. To analyze the tendencies of popularity, vote average, and vote counts by years, the columns "popularity", "release_date", "vote_average", and "vote_count" were taken for the subset data. 
 
 The columns being examined:
@@ -16,8 +16,8 @@ The columns being examined:
 
 
 ## Analysis Methodologies:
-All movies with zero vote counts were removed from the subset data, and all movie data of the dataframe was separated into seven subsets of 20-year span by extracting first four digits from the release_date column.   
-Then, I created visualizations of popularity and vote average correlation with the color differentiations based on the vote counts. The popularity values were calculated in log10 for the better visualizations since the values vary over a wide range, from 0.000001 to 547.488298. 
+All movies with zero vote counts were removed from the subset data, and all movie data of the dataframe was separated into seven subsets of 20-year span by extracting first four digits from the release_date column. 
+Then, the visualizations were created to analyze three correlations between popularity and vote average, vote count and vote average, and vote count and popularity. The popularity values were calculated in logarithm of 10 for the better visualizations since the values vary over a wide range, from 0.000001 to 547.488298. 
 
 - A hexbin plot just of log(popularity) vs vote_average, The hexbin plot bins the individual points by where they fall on the plot, and will show areas of high density and will better resolve the data.
 
