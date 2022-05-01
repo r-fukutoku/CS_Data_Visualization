@@ -1,7 +1,7 @@
 # Final Project - Movie Data
 
 ## Introduction 
-The movies dataset from Keggle containing 45,000 movies information was used as an original dataset. This project focuses on movies' popularity, their vote average, and the number of the votes and seeks to identify how popularity of movies correlates with vote average, and how this differs over time by using the movies dataset. The analysis will expose the tendencies of popularity and vote of over 40,000 movies (after removing all movies with missing observations) released over 140 years. 
+The movies dataset from Keggle containing 45,000 movies information was used as an original dataset. This project focuses on movies' popularity, their vote average, and the number of the votes and seeks to identify the correlations between three measurements, popularity, vote average, and vote count, and how these differ over time by using the movies dataset. The analysis will expose the tendencies of popularity and vote of over 40,000 movies (after removing all movies with missing observations) released over 140 years. 
 
 
 ## Description of Data
@@ -16,13 +16,13 @@ The columns being examined:
 
 
 ## Analysis Methodologies
-All movies with zero vote counts were removed from the subset data, and all movie data of the dataframe was separated into seven subsets of 20-year span by extracting first four digits from the release_date column. 
+All movies with zero vote counts were removed from the subset data. Then, all movie data of the dataframe was separated into seven subsets of 20-year span by extracting first four digits from the release_date column. 
 Then, the visualizations were created to analyze three correlations between popularity and vote average, vote count and vote average, and vote count and popularity. The popularity values were calculated in logarithm of 10 for the better visualizations since the values vary over a wide range, from 0.000001 to 547.488298. 
 
 The types of visualizations:
-- A hexbin plot of popularity in log10 vs vote_average - the hexbin plot bins the individual movie points by where they fall on the plot, and shows areas of high density and resolves the data.
-- A strip plot of vote count vs vote average: all movies were separated into three categories based on their vote average - low: 0≤x<4, middle: 4≤x<8, high: 8≤x≤10. Each movie is a plot point. (The size of plot regarding the vertical axis, vote count, is different between 1941-1960 plot and 2001-2020 plot to examine their trends).
-- A strip plot of vote count vs popularity - all movies were separated into three categories based on their popularity - low: 0≤x<10, middle: 10≤x<15, high: 15≤x for 2001-2020, and low: 0≤x<20, middle: 20≤x<100, high: 100≤x for 2001-2020; the separations were adjusted for the better visualizations for the comparison purpose. Each movie is a plot point. (The size of plot regarding the vertical axis, vote count, is different between 1941-1960 plot and 2001-2020 plot to examine their trends).
+- **A hexbin plot of popularity in log10 vs vote_average**: the hexbin plot bins the individual movie points by where they fall on the plot, and shows areas of high density and resolves the data.
+- **A strip plot of vote count vs vote average:** all movies were separated into three categories based on their vote average - low: 0≤x<4, middle: 4≤x<8, high: 8≤x≤10. Each movie is a plot point. (The size of plot regarding the vertical axis, vote count, is different between 1941-1960 plot and 2001-2020 plot to examine their trends).
+- **A strip plot of vote count vs popularity**: all movies were separated into three categories based on their popularity - low: 0≤x<10, middle: 10≤x<15, high: 15≤x for 2001-2020, and low: 0≤x<20, middle: 20≤x<100, high: 100≤x for 2001-2020; the separations were adjusted for the better visualizations for the comparison purpose. Each movie is a plot point. (The size of plot regarding the vertical axis, vote count, is different between 1941-1960 plot and 2001-2020 plot to examine their trends).
 
 
 ## Results
@@ -57,7 +57,7 @@ For the second two strip plots of vote count vs popularity, 1941-1960 and 2001-2
 
 
 ## Conclusion
-From this analysis with three different types of visualizations, I conclude that the movies' population, vote average, and vote count share very similar trends over 140 years. Although the number of movies published are very different in 1881 and 2020, it was surprising that the trends appear in all two-decade span.
+From this analysis with three different types of visualizations, I found that the movies' population, vote average, and vote count share very similar trends over 140 years. Although the number of movies published are very different in 1881 and 2020, it was surprising that the trends appear in all two-decade span. I conclude that there were correlations between vote count and vote average, and vote count and popularity, while there was no relationship between vote average and popularity. 
 
 
 ## References
