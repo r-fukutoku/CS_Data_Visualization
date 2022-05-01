@@ -56,7 +56,7 @@ For the second two strip plots of vote count vs popularity, 1941-1960 and 2001-2
 
 
 ## Conclusion
-From this analysis with three different types of visualizations, I conclude that the movies' population, vote average, and vote count share very similar trends over 140 years. 
+From this analysis with three different types of visualizations, I conclude that the movies' population, vote average, and vote count share very similar trends over 140 years. Although the number of movies published are very different in 1881 and 2020, it was surprising that the trends appear in all two-decade span.
 
 
 ## References
