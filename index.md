@@ -1,11 +1,11 @@
 # Final Project - Movie Data
 
 ## Introduction 
-The movies dataset from Keggle containing 45,000 movies information was used as an original dataset. This project focuses on movies' popularity, their vote average, and the number of the votes and seeks to identify the correlations between three measurements, popularity, vote average, and vote count, and how these differ over time by using the movies dataset. The analysis will expose the tendencies of popularity and vote of over 40,000 movies (after removing all movies with missing observations) released over 140 years. 
+The movies dataset from Kaggle containing 45,000 movies information was used as an original dataset. This project focuses on movies' popularity, their vote average, and the number of the votes and seeks to identify the correlations between three measurements, popularity, vote average, and vote count, and how these differ over time by using the movies dataset. The analysis will expose the tendencies of popularity and vote of over 40,000 movies (after removing all movies with missing observations) released over 140 years. 
 
 
 ## Description of Data
-The original dataset, the movies dataset, from Keggle contains information on 45,000 movies featured in the Full MovieLens dataset. Features include title, budget, revenue, genres, release dates, original languages, overview, production countries, and companies. 
+The original dataset, the movies dataset, from Kaggle contains information on 45,000 movies featured in the Full MovieLens dataset. Features include title, budget, revenue, genres, release dates, original languages, overview, production countries, and companies. 
 The dataset was re-formatted for the part of original data used complicated JSON-like formats, and missing observations were largely removed. To analyze the tendencies of popularity, vote average, and vote counts by years, four columns indicated below were taken for the subset data. 
 
 The columns being examined:
@@ -30,9 +30,9 @@ The key charts demonstrating the results are shown below.
 
 **Hexbin Plots of Popularity in log10 vs Vote Average in Different Timeframe:**
 
-![final_hexbin_1941-1960](https://user-images.githubusercontent.com/98488324/165655712-c06e7db2-5a98-4960-a04a-30f506d780a5.png)
+![final_hexbin_1941-1960](https://user-images.githubusercontent.com/98488324/166256800-23050b23-b510-4048-803f-b423d6e48f71.png)
 
-![final_hexbin_2001-2020](https://user-images.githubusercontent.com/98488324/165655720-d5a716b3-3d0a-4083-8f52-4f00ada2201b.png)
+![final_hexbin_2001-2020](https://user-images.githubusercontent.com/98488324/166256817-0d818d1d-c91b-4667-8996-cef63c50eda8.png)
 
 
 **Strip Plots of Vote Count vs Vote Average in Different Timeframe:**
