@@ -30,7 +30,7 @@ The key charts demonstrating the results are shown below.
 
 **Hexbin Plots of Popularity in log10 vs Vote Average in Different Timeframe:**
 
-![final_hexbin_1941-1960](https://user-images.githubusercontent.com/98488324/166256800-23050b23-b510-4048-803f-b423d6e48f71.png)
+![final_hexbin_1941-1960](https://user-images.githubusercontent.com/98488324/166302266-85eba58d-d398-4c41-a8fd-9e735df13c71.png)
 
 ![final_hexbin_2001-2020](https://user-images.githubusercontent.com/98488324/166256817-0d818d1d-c91b-4667-8996-cef63c50eda8.png)
 
