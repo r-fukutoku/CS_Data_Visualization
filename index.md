@@ -28,30 +28,29 @@ The types of visualizations:
 ## Results
 The key charts demonstrating the results are shown below.
 
-**Hexbin Plots of Popularity in log10 vs Vote Average in Different Timeframe:**
+### Hexbin Plots of Popularity in log10 vs Vote Average in Different Timeframe:
 
 ![final_hexbin_1941-1960](https://user-images.githubusercontent.com/98488324/166302266-85eba58d-d398-4c41-a8fd-9e735df13c71.png)
 
 ![final_hexbin_2001-2020](https://user-images.githubusercontent.com/98488324/166256817-0d818d1d-c91b-4667-8996-cef63c50eda8.png)
 
-### Findings:
+#### Findings:
 The hexbin plot allowed us to have an effective visualization for the analysis of the corlleration between popularity and vote average. I created the same structured plots for seven two-decade span subset data to analyze the trends of population and vote average over time. I found a trend that appears in all charts with the movies over 140 years, which is that the areas of high density are around the vote average of 5 to 8 and the popularity range of -1 to 1 in log10. This is interpreted as a tendency that the mojority of movies share similar range of vote average and popularity which do not change over 140 years. I picked two plots, 1941-1960 and 2001-2020, as they indicate the trend well.
 
 
-**Strip Plots of Vote Count vs Vote Average in Different Timeframe:**
+### Strip Plots of Vote Count vs Vote Average & Vote Count vs Popularity in 1941-1960:
 
 ![final_strip_1941-1960](https://user-images.githubusercontent.com/98488324/166092879-190df453-e46a-4303-a42c-048e6e513050.png)
 ![final_strip_pop_1941-1960](https://user-images.githubusercontent.com/98488324/166092884-f6fa5180-a8cf-425e-b6d8-fd960ef1a5a6.png)
 
 
-**Strip Plots of Vote Count vs Popularity in Different Timeframe:**
+### Strip Plots of Vote Count vs Vote Average & Vote Count vs Popularity in 2001-2020:
 
 ![final_strip_2001-2020](https://user-images.githubusercontent.com/98488324/166092882-cb0cc0d3-fafa-4cf8-b5f9-c30396a8ca45.png)
 ![final_strip_pop_2001-2020](https://user-images.githubusercontent.com/98488324/166130195-851ae83d-2267-4a9b-8242-eb81bf860732.png)
 
 
-### Findings
-
+#### Findings
 The stripchart captures vote count efficiently since it spans a full range of values. There are also trends in these plots. For the first two strip plots of vote count vs vote average, both 1941-1960 and 2001-2020's share very similar trend. Movies in low (0≤x<4) vote average have very few votes, movies in mediam (4≤x<8) vote average spread wider than the low category's but narrower than high category's, and movies in high (8≤x≤10) vote average spread the widest in vote count in the three categories. This means that the higher the vote average is, the larger the number of vote count is.
 
 For the second two strip plots of vote count vs popularity, 1941-1960 and 2001-2020's appear to be very similar. With larger number of movies in 2001-2020 plot, the tendency is exaggerated. Low popularity movies have small vote counts, mediam popularity movies spread their vote counts wider than low popularity ones but wider than high popularity ones, and high popularity movies spread out widely and evenly from small to large vote counts. 
