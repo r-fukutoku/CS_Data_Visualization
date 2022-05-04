@@ -36,7 +36,7 @@ The key charts demonstrating the results are shown below.
 
 ![final_hexbin_2001-2020](https://user-images.githubusercontent.com/98488324/166256817-0d818d1d-c91b-4667-8996-cef63c50eda8.png)
 
-####  <ins>Findings</ins>
+#### <ins>Findings:</ins>
 The hexbin plot allowed us to have an effective visualization for the analysis of the corlleration between popularity and vote average. I created the same structured plots for seven two-decade span subset data to analyze the trends of population and vote average over time. I found a trend that appears in all charts with the movies over 140 years, which is that the areas of high density are around the vote average of 5 to 8 and the popularity range of -1 to 1 in log10. This is interpreted as a tendency that the mojority of movies share similar range of vote average and popularity which do not change over 140 years. I picked two plots, 1941-1960 and 2001-2020, as they indicate the trend well.
 
 
@@ -52,7 +52,7 @@ The hexbin plot allowed us to have an effective visualization for the analysis o
 ![final_strip_pop_2001-2020](https://user-images.githubusercontent.com/98488324/166130195-851ae83d-2267-4a9b-8242-eb81bf860732.png)
 
 
-#### Findings
+#### <ins>Findings:</ins>
 The stripchart captures vote count efficiently since it spans a full range of values. There are also trends in these plots. For the first two strip plots of vote count vs vote average, both 1941-1960 and 2001-2020's share very similar trend. Movies in low (0≤x<4) vote average have very few votes, movies in mediam (4≤x<8) vote average spread wider than the low category's but narrower than high category's, and movies in high (8≤x≤10) vote average spread the widest in vote count in the three categories. This means that the higher the vote average is, the larger the number of vote count is.
 
 For the second two strip plots of vote count vs popularity, 1941-1960 and 2001-2020's appear to be very similar. With larger number of movies in 2001-2020 plot, the tendency is exaggerated. Low popularity movies have small vote counts, mediam popularity movies spread their vote counts wider than low popularity ones but wider than high popularity ones, and high popularity movies spread out widely and evenly from small to large vote counts. 
