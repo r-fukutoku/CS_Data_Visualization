@@ -34,8 +34,7 @@ The key charts demonstrating the results are shown below.
 
 ![final_hexbin_2001-2020](https://user-images.githubusercontent.com/98488324/166256817-0d818d1d-c91b-4667-8996-cef63c50eda8.png)
 
-### Findings
-
+#### Findings:
 The hexbin plot allowed us to have an effective visualization for the analysis of the corlleration between popularity and vote average. I created the same structured plots for seven two-decade span subset data to analyze the trends of population and vote average over time. I found a trend that appears in all charts with the movies over 140 years, which is that the areas of high density are around the vote average of 5 to 8 and the popularity range of -1 to 1 in log10. This is interpreted as a tendency that the mojority of movies share similar range of vote average and popularity which do not change over 140 years. I picked two plots, 1941-1960 and 2001-2020, as they indicate the trend well.
 
 
