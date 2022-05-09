@@ -1,16 +1,7 @@
 # Final Project - Movie Data
 
 ## Introduction 
-The movies dataset from Kaggle containing 45,000 movies information was used as an original dataset. This project focuses on movies' popularity, their vote average, and the number of the votes and seeks to identify the correlations between three measurements, popularity, vote average, and vote count, and how these differ over time by using the movies dataset. The analysis will expose the tendencies of popularity and vote of over 40,000 movies (after removing all movies with missing observations) released over 140 years. 
-
-
-
-What do I expect?
--Very nice job of introducing the data set. Make sure to state your research question very specifically in the introduction.
-
--The Findings from the Visualizations section needs to be expanded. Suggest splitting up into multiple parts, at least 2 for the two sets of visualizations. Instead of stating logged values, state the actual values and comment on how they appear in the figures. Be more specific in your discussion of what the figures show. Also consider when you do this how many movies you see in the various groupings.
-
--Explain in more detail why you chose to highlight the two time periods that you did.
+The movies dataset from Kaggle containing 45,000 movies information was used as an original dataset. This project focuses on three features, movies' popularity, their vote average and the number of the votes, and seeks to identify the correlations between the three, and how these differ over time by using the movies dataset. The analysis will reveal the tendencies of popularity and vote on over 40,000 movies (after removing all movies with missing observations) released over 140 years. 
 
 
 ## Description of Data
@@ -44,7 +35,13 @@ The key charts demonstrating the results are shown below.
 ![final_hexbin_2001-2020](https://user-images.githubusercontent.com/98488324/166256817-0d818d1d-c91b-4667-8996-cef63c50eda8.png)
 
 #### <ins>Findings:</ins>
-The hexbin plot allowed us to have an effective visualization for the analysis of the corlleration between popularity and vote average. I created the same structured plots for seven two-decade span subset data to analyze the trends of population and vote average over time. I found a trend that appears in all charts with the movies over 140 years, which is that the areas of high density are around the vote average of 5 to 8 and the popularity range of -1 to 1 in log10. This is interpreted as a tendency that the mojority of movies share similar range of vote average and popularity which do not change over 140 years. I picked two plots, 1941-1960 and 2001-2020, as they indicate the trend well.
+The hexbin plot allowed us to have an effective visualization for the analysis of the correlation between popularity and vote average. I created the same structured plots for seven two-decade span subset data to analyze the trends of population and vote average over time. I found a trend that appears in all charts with the movies over 140 years, which is that the areas of high density are around the vote average of 5 to 8 and the popularity range of -1 to 1 in log10. This is interpreted as a tendency that the mojority of movies share similar range of vote average and popularity which do not change over 140 years. I picked two plots, 1941-1960 and 2001-2020, as they indicate the trend well.
+
+
+
+-Instead of stating logged values, state the actual values and comment on how they appear in the figures. Be more specific in your discussion of what the figures show. Also consider when you do this how many movies you see in the various groupings. What do I expect?
+
+-Explain in more detail why you chose to highlight the two time periods that you did.
 
 
 ### Strip Plots of Vote Count vs Vote Average & Vote Count vs Popularity in 1941-1960:
