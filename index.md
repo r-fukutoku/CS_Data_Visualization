@@ -3,7 +3,14 @@
 ## Introduction 
 The movies dataset from Kaggle containing 45,000 movies information was used as an original dataset. This project focuses on movies' popularity, their vote average, and the number of the votes and seeks to identify the correlations between three measurements, popularity, vote average, and vote count, and how these differ over time by using the movies dataset. The analysis will expose the tendencies of popularity and vote of over 40,000 movies (after removing all movies with missing observations) released over 140 years. 
 
+
+
 What do I expect?
+-Very nice job of introducing the data set. Make sure to state your research question very specifically in the introduction.
+
+-The Findings from the Visualizations section needs to be expanded. Suggest splitting up into multiple parts, at least 2 for the two sets of visualizations. Instead of stating logged values, state the actual values and comment on how they appear in the figures. Be more specific in your discussion of what the figures show. Also consider when you do this how many movies you see in the various groupings.
+
+-Explain in more detail why you chose to highlight the two time periods that you did.
 
 
 ## Description of Data
