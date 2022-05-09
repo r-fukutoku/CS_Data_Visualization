@@ -40,11 +40,10 @@ _*Inside of the log10 parentheses are the actual values of popularity_
 ![final_hexbin_2001-2020](https://user-images.githubusercontent.com/98488324/166256817-0d818d1d-c91b-4667-8996-cef63c50eda8.png)
 
 #### <ins>Findings:</ins>
-The hexbin plot allowed us to have an effective visualization for the analysis of the correlation between popularity and vote average. By creating the same structured plots for seven two-decade span subset data, I found a trend that appears in all charts with the movies over 140 years. The trend is that the areas of high density are around the vote average of 5 to 8 and the popularity around 1 (0 in log10). Specifically, 1941-1960 plot has its high density (60-80+) between the popularity range of 0.3162 to 3.1623 (-0.5 to 0.5 in log10), and 2001-2020 plot has its high density (500-600+) between the popularity range of 0.3162 to 10 (-0.5 to 1 in log10). This is interpreted as a tendency that the majority of movies share similar range of vote average and popularity which do not change over 140 years. I picked two plots, 1941-1960 and 2001-2020, as they indicate the trend well.
+The hexbin plot allowed us to have an effective visualization for the analysis of the correlation between popularity and vote average. By creating the same structured plots for seven two-decade span subset data, I found a trend that appears in all charts with the movies over 140 years. The trend is that the areas of high density are around the vote average of 5 to 8 and the popularity around 1 (0 in log10). Specifically, 1941-1960 plot has its high density (60-80+ movies) between the popularity range of 0.3162 to 3.1623 (-0.5 to 0.5 in log10), and 2001-2020 plot has its high density (500-600+ movies) between the popularity range of 0.3162 to 10 (-0.5 to 1 in log10). This is interpreted as a tendency that the majority of movies share similar range of vote average and popularity which do not change over 140 years. I picked two plots, 1941-1960 and 2001-2020, as they indicate the trend well.
 
 
-
--Instead of stating logged values, state the actual values and comment on how they appear in the figures. Be more specific in your discussion of what the figures show. Also consider when you do this how many movies you see in the various groupings. What do I expect?
+-Be more specific in your discussion of what the figures show. Also consider when you do this how many movies you see in the various groupings. What do I expect?
 
 
 ### Strip Plots of Vote Count vs Vote Average & Vote Count vs Popularity in 1941-1960:
