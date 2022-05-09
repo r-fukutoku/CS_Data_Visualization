@@ -18,6 +18,7 @@ The columns being examined:
 ## Analysis Methodologies
 All movies with zero vote counts were removed from the subset data. Then, all movie data of the dataframe was separated into seven subsets of 20-year span by extracting first four digits from the release_date column. 
 Then, the visualizations were created to analyze three correlations between popularity and vote average, vote count and vote average, and vote count and popularity. The popularity values were calculated in logarithm of 10 for the better visualizations since the values vary over a wide range, from 0.000001 to 547.488298. 
+Additionally, all visualizations were created with all seven 20-year span subset data in order to compare the changes over time. Two time periods, 1941-1960 and 2001 and 2020, were chosen as they depict the trends well in two different time periods. 
 
 The types of visualizations:
 - **A hexbin plot of popularity in log10 vs vote_average**: the hexbin plot bins the individual movie points by where they fall on the plot, and shows areas of high density and resolves the data.
@@ -28,6 +29,10 @@ The types of visualizations:
 ## Results
 The key charts demonstrating the results are shown below.
 
+**Notes: the logarithm of any positive number to any base is negative when that number is below 1. 
+e.g. log10(100) = 2, log10(10) = 1, log10(1) = 0, log10(0.1) = -1, log10(0.01) = -2**
+** * Inside of the log10 parentheses　are the actual values of popularity**
+
 ### Hexbin Plots of Popularity in log10 vs Vote Average in Different Timeframe:
 
 ![final_hexbin_1941-1960](https://user-images.githubusercontent.com/98488324/166302266-85eba58d-d398-4c41-a8fd-9e735df13c71.png)
@@ -35,13 +40,11 @@ The key charts demonstrating the results are shown below.
 ![final_hexbin_2001-2020](https://user-images.githubusercontent.com/98488324/166256817-0d818d1d-c91b-4667-8996-cef63c50eda8.png)
 
 #### <ins>Findings:</ins>
-The hexbin plot allowed us to have an effective visualization for the analysis of the correlation between popularity and vote average. I created the same structured plots for seven two-decade span subset data to analyze the trends of population and vote average over time. I found a trend that appears in all charts with the movies over 140 years, which is that the areas of high density are around the vote average of 5 to 8 and the popularity range of -1 to 1 in log10. This is interpreted as a tendency that the mojority of movies share similar range of vote average and popularity which do not change over 140 years. I picked two plots, 1941-1960 and 2001-2020, as they indicate the trend well.
+The hexbin plot allowed us to have an effective visualization for the analysis of the correlation between popularity and vote average. By creating the same structured plots for seven two-decade span subset data, I found a trend that appears in all charts with the movies over 140 years. The trend is that the areas of high density are around the vote average of 5 to 8 and the popularity range of 0.1 to 10 (-1 to 1 in log10). This is interpreted as a tendency that the majority of movies share similar range of vote average and popularity which do not change over 140 years. I picked two plots, 1941-1960 and 2001-2020, as they indicate the trend well.
 
 
 
 -Instead of stating logged values, state the actual values and comment on how they appear in the figures. Be more specific in your discussion of what the figures show. Also consider when you do this how many movies you see in the various groupings. What do I expect?
-
--Explain in more detail why you chose to highlight the two time periods that you did.
 
 
 ### Strip Plots of Vote Count vs Vote Average & Vote Count vs Popularity in 1941-1960:
