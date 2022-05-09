@@ -29,9 +29,9 @@ The types of visualizations:
 ## Results
 The key charts demonstrating the results are shown below.
 
-**Notes: the logarithm of any positive number to any base is negative when that number is below 1.   
-         i.e., log10(100) = 2, log10(10) = 1, log10(1) = 0, log10(0.1) = -1, log10(0.01) = -2**   
-         _*Inside of the log10 parentheses are the actual values of popularity_
+**Notes**: the logarithm of any positive number to any base is negative when that number is below 1.   
+i.e., log10(100) = 2, log10(10) = 1, log10(1) = 0, log10(0.1) = -1, log10(0.01) = -2   
+_*Inside of the log10 parentheses are the actual values of popularity_
 
 ### Hexbin Plots of Popularity in log10 vs Vote Average in Different Timeframe:
 
