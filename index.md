@@ -56,9 +56,10 @@ The hexbin plot allowed us to have an effective visualization for the analysis o
 
 
 #### <ins>Findings:</ins>
-The stripchart captures vote count efficiently since it spans a full range of values. There are also trends in these plots. For the first two strip plots of vote count vs vote average, both 1941-1960 and 2001-2020's share very similar trend. Movies in low (0≤x<4) vote average have very few votes, movies in mediam (4≤x<8) vote average spread wider than the low category's but narrower than high category's, and movies in high (8≤x≤10) vote average spread the widest in vote count in the three categories. This means that the higher the vote average is, the larger the number of vote count is.
+The stripchart captures vote count efficiently since it spans a full range of values. There are also trends in these plots. 
+For the strip plots of vote count vs vote average, both 1941-1960 and 2001-2020's share a very similar tendency. Movies in low (0≤x<4) vote average have very few votes, movies in middle (4≤x<8) vote average spread wider than the low category's but narrower than high category's, and movies in high (8≤x≤10) vote average spread the widest in vote count in the three categories. This means that the higher the vote average is, the larger the number of vote count is.
 
-For the second two strip plots of vote count vs popularity, 1941-1960 and 2001-2020's appear to be very similar. With larger number of movies in 2001-2020 plot, the tendency is exaggerated. Low popularity movies have small vote counts, mediam popularity movies spread their vote counts wider than low popularity ones but wider than high popularity ones, and high popularity movies spread out widely and evenly from small to large vote counts. 
+For another set of strip plots of vote count vs popularity, 1941-1960 and 2001-2020's appear to be very similar. With larger number of movies in 2001-2020 plot, the tendency is exaggerated. Low popularity movies have small vote counts, middle popularity movies spread their vote counts wider than low popularity ones but wider than high popularity ones, and high popularity movies spread out widely and evenly from small to large vote counts. 
 
 
 ## Conclusion
