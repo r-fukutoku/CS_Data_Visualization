@@ -66,7 +66,7 @@ For another set of strip plots of vote count vs popularity, 1941-1960 and 2001-2
 From this analysis with three different types of visualizations, I found that the movies' population, vote average, and vote count share very similar trends over 140 years. Although the number of movies published are very different in 1881 and 2020, it was surprising that the trends appear in all two-decade span. I conclude that there were correlations between vote count and vote average, and vote count and popularity, while there was no relationship between vote average and popularity. 
 
 
-## References
+## Reference
 Banik, R. (2017). The Movies Dataset, Version 7. Retrieved February 15, 2022 from [ https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset ](https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset).
 
 
