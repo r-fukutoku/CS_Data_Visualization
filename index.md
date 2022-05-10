@@ -67,7 +67,7 @@ This means that between 1941-1960 the higher popularity the movies have, the hig
 
 
 ## Conclusion
-From this analysis with three different types of visualizations, I found that overall, the relationships between the movies' population, vote average, and vote count shared very similar trends over 140 years. Although the number of movies published were very different in 1881 and 2020, it was surprising that the trends appeared in all two-decade spans. I conclude that there were correlations between vote count and vote average, vote count and popularity, and vote average and popularity. 
+From this analysis with three different types of visualization, I found that overall the relationships between the movies' population, vote average, and vote count shared very similar trends over 140 years. Although the number of movies published were very different from 1881 to 2020, it was surprising that the trends appeared in all two-decade spans to some extent. I conclude that there were correlations between vote count and vote average, vote count and popularity, and vote average and popularity. 
 
 
 ## Reference
