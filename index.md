@@ -56,7 +56,8 @@ The hexbin plot allow us to have an effective visualization for the analysis of 
 
 
 #### <ins>Findings:</ins>
-The stripchart captures vote count efficiently since it spans a full range of values. There are also trends in these plots. With the larger number of movies in 2001-2020 plot, the tendencies appear to be exaggerated.   
+The stripchart captures vote count efficiently since it spans a full range of values. There are also trends in these plots. With the larger number of movies in 2001-2020 plot, the tendencies appear to be exaggerated.
+
 For the strip plots of vote count vs vote average, both 1941-1960 and 2001-2020's share a very similar tendency. Movies in low (0≤x<4) vote average have very few votes, movies in middle (4≤x<8) vote average spread wider than the low category's but narrower than high category's, and movies in high (8≤x≤10) vote average spread the widest in vote count in the three categories. This means that the higher the vote average is, the larger the number of vote count is.
 
 For another set of strip plots of vote count vs popularity, 1941-1960 and 2001-2020's appear to be slightly different. While overall spreads of plot points for three categories are similar for both time periods, the middle popularity movies in 1941-1960 plot spread their vote counts narrower than high popularity ones, and the middle popularity ones in 2001-2020 plot spread wider than high popularity ones.
