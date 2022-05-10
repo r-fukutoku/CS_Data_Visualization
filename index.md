@@ -17,8 +17,8 @@ The columns being examined:
 
 ## Analysis Methodologies
 All movies with zero vote counts were removed from the subset data. Then, all movie data of the dataframe was separated into seven subsets of 20-year span by extracting first four digits from the release_date column. 
-Then, the visualizations were created to analyze three correlations between popularity and vote average, vote count and vote average, and vote count and popularity. The popularity values were calculated in logarithm of 10 for the better visualizations since the values vary over a wide range, from 0.000001 to 547.488298. 
-Additionally, all visualizations were created with all seven 20-year span subset data in order to compare the changes over time. Two time periods, 1941-1960 and 2001 and 2020, were chosen as they depict the trends well in two different time periods. 
+Three types of visualizations were created to analyze three correlations between popularity and vote average, vote count and vote average, and vote count and popularity, for all seven 20-year span subset data to compare the changes over time. Based on the results, two time periods, 1941-1960 and 2001 and 2020, were chosen as they depicted the trends and transition over time very well in two different time periods. 
+The popularity values were calculated in logarithm of 10 for the better visualizations since the values vary over a wide range, from 0.000001 to 547.488298. 
 
 The types of visualizations:
 - **A hexbin plot of popularity in log10 vs vote_average**: the hexbin plot bins the individual movie points by where they fall on the plot, and shows areas of high density and resolves the data.
@@ -40,10 +40,7 @@ _*Inside of the log10 parentheses are the actual values of popularity_
 ![final_hexbin_2001-2020](https://user-images.githubusercontent.com/98488324/166256817-0d818d1d-c91b-4667-8996-cef63c50eda8.png)
 
 #### <ins>Findings:</ins>
-The hexbin plot allowed us to have an effective visualization for the analysis of the correlation between popularity and vote average. By creating the same structured plots for seven two-decade span subset data, I found a trend that appears in all charts with the movies over 140 years. The trend is that the areas of high density are around the vote average of 5 to 8 and the popularity around 1 (0 in log10). Specifically, 1941-1960 plot has its high density (60-80+ movies) between the popularity range of 0.3162 to 3.1623 (-0.5 to 0.5 in log10), and 2001-2020 plot has its high density (500-600+ movies) between the popularity range of 0.3162 to 10 (-0.5 to 1 in log10). This is interpreted as a tendency that the majority of movies share similar range of vote average and popularity which do not change over 140 years. I picked two plots, 1941-1960 and 2001-2020, as they indicate the trend well.
-
-
--Be more specific in your discussion of what the figures show. Also consider when you do this how many movies you see in the various groupings. What do I expect?
+The hexbin plot allowed us to have an effective visualization for the analysis of the correlation between popularity and vote average. By creating the same structured plots for seven two-decade span subset data, I found a trend that appears in all charts with the movies over 140 years. The trend is that the areas of high density are around the vote average of 5 to 8 and the popularity around 1 (0 in log10). Specifically, 1941-1960 plot has its high density (60-80+ movies) between the popularity range of 0.3162 to 3.1623 (-0.5 to 0.5 in log10), and 2001-2020 plot has its high density (500-600+ movies) between the popularity range of 0.3162 to 10 (-0.5 to 1 in log10). This is interpreted as a tendency that the majority of movies share similar range of vote average and popularity, which do not change over 140 years. Although I expected the vote average to focus around 5 to 8 as its commonplace, it was surprising to see that even the popularity rage remained very similar over this long time of period. 
 
 
 ### Strip Plots of Vote Count vs Vote Average & Vote Count vs Popularity in 1941-1960:
