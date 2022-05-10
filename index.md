@@ -17,7 +17,7 @@ The columns being examined:
 
 ## Analysis Methodologies
 All movies with zero vote counts were removed from the subset data. Then, all movie data of the dataframe was separated into seven subsets of 20-year span by extracting first four digits from the release_date column. 
-Three types of visualization were created to analyze three correlations between popularity and vote average, vote count and vote average, and vote count and popularity. All seven two-decade span subset data was examined in each kind of visualization to compare the changes over time. Based on the results, two time periods, 1941-1960 and 2001-2020, were chosen　for the graphs to be incorporated on this publication, as they depicted the trends and transition over time very well in two sufficiently different time periods. 
+Three types of visualization were created to analyze three correlations between popularity and vote average, vote count and vote average, and vote count and popularity. All seven two-decade span subset data was examined in each kind of visualization to compare the changes over time. Based on the results, two time periods, 1941-1960 and 2001-2020, were chosen for the graphs to be incorporated on this publication, as they depicted the trends and transition over time very well in two sufficiently different time periods. 
 The popularity values were calculated in logarithm of 10 for the better visualization since the values vary over a wide range, from 0.000001 to 547.488298. 
 
 The types of visualizations:
