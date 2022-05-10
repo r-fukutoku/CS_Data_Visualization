@@ -1,4 +1,4 @@
-# Data Visualization Final Project - Movie Data
+# Movies' Popularity and Vote Analysis with Visualization
 
 ## Introduction 
 The movies dataset from Kaggle containing 45,000 movies information was used as an original dataset. This project focuses on three features, movies' popularity, their vote average and the number of the votes, and seeks to identify the correlations between the three, and how these differ over time by using the movies dataset. The analysis will reveal the tendencies of popularity and vote on over 40,000 movies (after removing all movies with missing observations) released over 140 years. 
