@@ -22,8 +22,8 @@ The popularity values were calculated in logarithm of 10 for the better visualiz
 
 The types of visualizations:
 - **A hexbin plot of popularity in log10 vs vote_average**: the hexbin plot bins the individual movie points by where they fall on the plot, and shows areas of high density and resolves the data.
-- **A strip plot of vote count vs vote average**: all movies were separated into three categories based on their vote average - low: 0≤x<4, middle: 4≤x<8, high: 8≤x≤10. Each movie is a plot point. (The size of plot regarding the vertical axis, vote count, is different between 1941-1960 plot and 2001-2020 plot to examine their trends).
-- **A strip plot of vote count vs popularity**: all movies were separated into three categories based on their popularity - low: 0≤x<10, middle: 10≤x<15, high: 15≤x for 2001-2020, and low: 0≤x<20, middle: 20≤x<100, high: 100≤x for 2001-2020; the separations were adjusted for the better visualizations for the comparison purpose. Each movie is a plot point. (The size of plot regarding the vertical axis, vote count, is different between 1941-1960 plot and 2001-2020 plot to examine their trends).
+- **A strip plot of vote count vs vote average**: all movies were separated into three categories based on their vote average - low: 0≤x<4, middle: 4≤x<8, high: 8≤x≤10. Each movie is a plot point. _(The plot scale of the vertical axis, vote count, is different between 1941-1960 plot and 2001-2020 plot for the sake of comparison.)_
+- **A strip plot of vote count vs popularity**: all movies were separated into three categories based on their popularity - low: 0≤x<10, middle: 10≤x<15, high: 15≤x for 2001-2020, and low: 0≤x<20, middle: 20≤x<100, high: 100≤x for 2001-2020; the separations were adjusted for the better visualizations for the comparison purpose. Each movie is a plot point. _(The plot scale of the vertical axis, vote count, is different between 1941-1960 plot and 2001-2020 plot for the sake of comparison.)_
 
 
 ## Results
@@ -40,7 +40,7 @@ _*Inside of the log10 parentheses are the actual values of popularity_
 ![final_hexbin_2001-2020](https://user-images.githubusercontent.com/98488324/166256817-0d818d1d-c91b-4667-8996-cef63c50eda8.png)
 
 #### <ins>Findings:</ins>
-The hexbin plot allowed us to have an effective visualization for the analysis of the correlation between popularity and vote average. By creating the same structured plots for seven two-decade span subset data, I found a trend that appears in all charts with the movies over 140 years. The trend is that the areas of high density are around the vote average of 5 to 8 and the popularity around 1 (0 in log10). Specifically, 1941-1960 plot has its high density (60-80+ movies) between the popularity range of 0.3162 to 3.1623 (-0.5 to 0.5 in log10), and 2001-2020 plot has its high density (500-600+ movies) between the popularity range of 0.3162 to 10 (-0.5 to 1 in log10). This is interpreted as a tendency that the majority of movies share similar range of vote average and popularity, which do not change over 140 years. Although I expected the vote average to focus around 5 to 8 as its commonplace, it was surprising to see that even the popularity rage remained very similar over this long time of period. 
+The hexbin plot allow us to have an effective visualization for the analysis of the correlation between popularity and vote average. By creating the same structured plots for seven two-decade span subset data, I found a trend that appeared in all charts with the movies over 140 years. The trend is that the areas of high density are around the vote average of 5 to 8 and the popularity around 1 (0 in log10). Specifically, 1941-1960 plot has its high density (60-80+ movies) between the popularity range of 0.3162 to 3.1623 (-0.5 to 0.5 in log10), and 2001-2020 plot has its high density (500-600+ movies) between the popularity range of 0.3162 to 10 (-0.5 to 1 in log10). This is interpreted as a tendency that the majority of movies share similar range of vote average and popularity, which do not change over 140 years. Although I expected the vote average to focus around 5 to 8 as its commonplace, it was surprising to see that even the popularity rage remained very similar over this long time of period. 
 
 
 ### Strip Plots of Vote Count vs Vote Average & Vote Count vs Popularity in 1941-1960:
@@ -56,14 +56,15 @@ The hexbin plot allowed us to have an effective visualization for the analysis o
 
 
 #### <ins>Findings:</ins>
-The stripchart captures vote count efficiently since it spans a full range of values. There are also trends in these plots. 
+The stripchart captures vote count efficiently since it spans a full range of values. There are also trends in these plots. With the larger number of movies in 2001-2020 plot, the tendencies appear to be exaggerated.   
 For the strip plots of vote count vs vote average, both 1941-1960 and 2001-2020's share a very similar tendency. Movies in low (0≤x<4) vote average have very few votes, movies in middle (4≤x<8) vote average spread wider than the low category's but narrower than high category's, and movies in high (8≤x≤10) vote average spread the widest in vote count in the three categories. This means that the higher the vote average is, the larger the number of vote count is.
 
-For another set of strip plots of vote count vs popularity, 1941-1960 and 2001-2020's appear to be very similar. With larger number of movies in 2001-2020 plot, the tendency is exaggerated. Low popularity movies have small vote counts, middle popularity movies spread their vote counts wider than low popularity ones but wider than high popularity ones, and high popularity movies spread out widely and evenly from small to large vote counts. 
+For another set of strip plots of vote count vs popularity, 1941-1960 and 2001-2020's appear to be slightly different. While overall spreads of plot points for three categories are similar for both time periods, the middle popularity movies in 1941-1960 plot spread their vote counts narrower than high popularity ones, and the middle popularity ones in 2001-2020 plot spread wider than high popularity ones.
+This means that between 1941-1960 the higher popularity the movies have, the higher vote counts the movies obtain. The 2001-2020 plot can be interpreted in the same way, though it includes a movie with the highest vote counts but with middle popularity. 
 
 
 ## Conclusion
-From this analysis with three different types of visualizations, I found that the movies' population, vote average, and vote count share very similar trends over 140 years. Although the number of movies published are very different in 1881 and 2020, it was surprising that the trends appear in all two-decade span. I conclude that there were correlations between vote count and vote average, and vote count and popularity, while there was no relationship between vote average and popularity. 
+From this analysis with three different types of visualizations, I found that overall, the relationships between the movies' population, vote average, and vote count shared very similar trends over 140 years. Although the number of movies published were very different in 1881 and 2020, it was surprising that the trends appeared in all two-decade spans. I conclude that there were correlations between vote count and vote average, vote count and popularity, and vote average and popularity. 
 
 
 ## Reference
