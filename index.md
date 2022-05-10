@@ -22,7 +22,7 @@ The popularity values were calculated in logarithm of 10 for the better visualiz
 
 The types of visualizations:
 - **A hexbin plot of popularity in log10 vs vote_average**: the hexbin plot bins the individual movie points by where they fall on the plot, and shows areas of high density and resolves the data.
-- **A strip plot of vote count vs vote average**: all movies were separated into three categories based on their vote average - low: 0≤x<4, middle: 4≤x<8, high: 8≤x≤10. Each movie is a plot point.   
+- **A strip plot of vote count vs vote average**: all movies were separated into three categories based on their vote average –- low: 0≤x<4, middle: 4≤x<8, high: 8≤x≤10. Each movie is a plot point.   
   _(The plot scale of the vertical axis, vote count, is different between 1941-1960 plot and 2001-2020 plot for the sake of comparison.)_
 - **A strip plot of vote count vs popularity**: all movies were separated into three categories based on their popularity - low: 0≤x<10, middle: 10≤x<15, high: 15≤x for 2001-2020, and low: 0≤x<20, middle: 20≤x<100, high: 100≤x for 2001-2020; the separations were adjusted for the better visualizations for the comparison purpose. Each movie is a plot point.   
   _(The plot scale of the vertical axis, vote count, is different between 1941-1960 plot and 2001-2020 plot for the sake of comparison.)_
