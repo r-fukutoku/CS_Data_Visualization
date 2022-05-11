@@ -75,8 +75,6 @@ From the results, I found that overall each correlation between popularity and v
 Banik, R. (2017). The Movies Dataset, Version 7. Retrieved February 15, 2022 from [ https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset ](https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset).
 
 
-##### Jekyll Themes
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/r-fukutoku/Project2/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
 ##### Support or Contact
 Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
