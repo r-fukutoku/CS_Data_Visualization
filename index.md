@@ -76,5 +76,5 @@ Banik, R. (2017). The Movies Dataset, Version 7. Retrieved February 15, 2022 fro
 
 
 
-##### Support or Contact
+#### Support or Contact
 Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
